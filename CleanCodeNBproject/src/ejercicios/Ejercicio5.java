@@ -1,8 +1,8 @@
-package unavarra.is.practica7.ejercicios;
+package Ejercicios;
 
 public class Ejercicio5 {
     
-    public static String Mes(int mes){
+    private static String mes(int mes){
         String resul = "";
         if(mes == 1){
             resul = "es un mes 30 días";
@@ -69,7 +69,7 @@ public class Ejercicio5 {
     }
 
     public static void main(String[] args) {
-        System.out.println(Mes(11));
+        System.out.println(mes(11));
     }
     
 }

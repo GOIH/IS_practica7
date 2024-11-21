@@ -1,8 +1,8 @@
-package unavarra.is.practica7.ejercicios;
+package Ejercicios;
 
 public class Ejercicio6 {
     
-        public static char DNI(int dni){
+        public static char dni(int dni){
         char resul = 'T';
         Integer r = dni%23;
         switch(r){
@@ -81,7 +81,7 @@ public class Ejercicio6 {
 
 
     public static void main(String[] args) {
-        System.out.println(DNI(72700123)); 
+        System.out.println(dni(72700123)); 
     }
     
 }

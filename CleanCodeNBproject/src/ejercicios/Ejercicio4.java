@@ -1,8 +1,8 @@
-package unavarra.is.practica7.ejercicios;
+package Ejercicios;
 
 public class Ejercicio4 {
     
-    public static String Dia(int d){
+    public static String dia(int d){
         String resul = "";
         if(d<=0){
             resul = "dia incorrecto";
@@ -49,7 +49,7 @@ public class Ejercicio4 {
     }
 
     public static void main(String[] args) {
-        System.out.println(Dia(3));
+        System.out.println(dia(3));
     }
     
 }
